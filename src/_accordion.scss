@@ -1,0 +1,48 @@
+.accordion {
+}
+.accordion__panel {
+  padding: 0px 24px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  background-color: #bbb;
+  transition: height 0.4s;
+}
+.accordion__panel--expanded {
+}
+.accordion__header {
+  padding: 8px 0px;
+  background-color: #ccc;
+  margin: 0;
+  transition: position 0.4s;
+  &:before {
+    line-height: 1.5em;
+    margin-right: 24px;
+    margin-left: 16px;
+  }
+  &:hover {
+    background-color: #ddd;
+  }
+  position: relative;
+  display: flex;
+  align-items: center;
+  &:hover {
+    cursor: pointer;
+  }
+  &:before {
+    font-family: 'Fontawesome';
+    content: '\f0fe';
+    display: inline-block;
+  }
+  h4 {
+    display: inline-block;
+  }
+}
+.accordion__fold--expanded {
+  .accordion__header {
+    &:before {
+      content: '\f146';
+    }
+  }
+}
+

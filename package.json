@@ -1,0 +1,24 @@
+{
+  "name": "ds-accordion",
+  "version": "1.0.0",
+  "description": "A simple vanilla JavaScript accordion.",
+  "main": "dist/accordion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify": "babel src/accordion.js --presets=es2015,babili -o dist/accordion.min.js",
+    "dist": "babel src/accordion.js --presets=es2015 -o dist/accordion.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DylanSimowitz/ds-accordion.git"
+  },
+  "keywords": [
+    "accordion"
+  ],
+  "author": "Dylan Simowitz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DylanSimowitz/ds-accordion/issues"
+  },
+  "homepage": "https://github.com/DylanSimowitz/ds-accordion#readme"
+}

@@ -1,6 +1,6 @@
 {
   "name": "ds-accordion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple vanilla JavaScript accordion.",
   "main": "dist/accordion.js",
   "scripts": {
